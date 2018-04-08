@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 import './index.scss'
 
-const Index = () => {
-    return <div className='text-block'>Helllo Galo</div>
-}
-
-ReactDOM.render(<Index></Index>, document.getElementById('index'))
+ReactDOM.render(<App/>, document.getElementById('root'))
